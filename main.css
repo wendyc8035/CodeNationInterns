@@ -1,0 +1,65 @@
+body {
+    font-family: "Roboto Slab","Helvetica","Arial","sans-serif"
+}
+
+.navbar {
+	background-color: #FFF;
+    border-color: #FFF;
+
+}
+
+.nav-link {
+   color:grey; 
+}
+
+
+.navbar-brand {
+    color: #EF5330;
+}
+
+.jumbotron {
+    padding-top: 150px; 
+	height: 500px;
+	background-image: url(https://www.scripted.org/wp-content/uploads/2014/08/se_141-1650x723.jpg)
+}
+
+.jumbotron h1{
+	color: #FFFFFF;
+}
+.jumbotron {
+	color: #FFFFFF;
+	margin: 0;
+}
+
+.jumbotron .btn {
+	background-color:#EF5330;
+    border-color: #EF5330;
+}
+
+#team{
+    padding: 100px;
+}
+
+.section-heading {
+    color: #15C2D2;
+    font-family: "proxima-nova","Helvetica","Arial", "sans-serif";
+}
+
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team-member img {
+    height: 200px;
+    width: 200px;
+}
+
+.footer {
+
+    background-color: #EF5330;
+   border-color: #EF5330;
+   padding-top: 20px;
+   padding-bottom: 20px;
+
+}
