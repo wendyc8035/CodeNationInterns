@@ -5,7 +5,6 @@ body {
 .navbar {
 	background-color: #FFF;
     border-color: #FFF;
-
 }
 
 .nav-link {
@@ -15,6 +14,19 @@ body {
 
 .navbar-brand {
     color: #EF5330;
+}
+
+.navbar-collapse {
+    color:grey;
+}
+
+a {
+    color:black;
+}
+
+a:hover {
+    color:lightgray;
+    text-decoration: none;
 }
 
 .jumbotron {
@@ -36,13 +48,14 @@ body {
     border-color: #EF5330;
 }
 
-#team{
-    padding: 100px;
+#interns{
+    padding: 50px;
 }
 
 .section-heading {
     color: #15C2D2;
     font-family: "proxima-nova","Helvetica","Arial", "sans-serif";
+    margin-bottom: 50px;
 }
 
 .team-member {
@@ -55,11 +68,43 @@ body {
     width: 200px;
 }
 
-.footer {
-
-    background-color: #EF5330;
-   border-color: #EF5330;
-   padding-top: 20px;
-   padding-bottom: 20px;
-
+.profile {
+    margin-top:50px;
+    padding:50px;
 }
+
+.profile-img {
+    height: 300px;
+    width: 300px;
+}
+
+.profile-icon {
+    color: grey;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.profile-icon:hover {
+    color: LightGray;
+    text-decoration: none;
+}
+
+.info {
+    padding:50px;
+}
+
+
+.footer {
+    background-color: #EF5330;
+    border-color: #EF5330;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFF;
+}
+
+.footer-icon {
+    color: #FFF;
+    font-size: 2em;
+    text-decoration: none;
+}
+
