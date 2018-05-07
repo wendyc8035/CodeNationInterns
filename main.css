@@ -43,7 +43,7 @@ a:hover {
 	margin: 0;
 }
 
-.jumbotron .btn {
+.btn {
 	background-color:#EF5330;
     border-color: #EF5330;
 }
@@ -58,12 +58,12 @@ a:hover {
     margin-bottom: 50px;
 }
 
-.team-member {
+.intern {
     margin-bottom: 50px;
     text-align: center;
 }
 
-.team-member img {
+.intern img {
     height: 200px;
     width: 200px;
 }
