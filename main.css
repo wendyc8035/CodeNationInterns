@@ -43,9 +43,14 @@ a:hover {
 	margin: 0;
 }
 
-.btn {
+.btn-primary {
 	background-color:#EF5330;
     border-color: #EF5330;
+}
+
+.btn-primary:hover {
+	background-color:lightgray;
+    border-color: lightgray;
 }
 
 #interns{
