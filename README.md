@@ -11,6 +11,8 @@
 
 ## Day 1
 ### Session 1
+Slides: 
+In this session students will learn about the 
 - Git
 - Forking, Cloning, Branching, checkout branch
 - Terminal
