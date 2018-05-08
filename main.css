@@ -60,7 +60,6 @@ a:hover {
 .section-heading {
     color: #15C2D2;
     font-family: "proxima-nova","Helvetica","Arial", "sans-serif";
-    margin-bottom: 50px;
 }
 
 .intern {
@@ -113,3 +112,11 @@ a:hover {
     text-decoration: none;
 }
 
+.footer-text {
+    color: #FFF;
+}
+
+.footer-logo {
+    height: 1em;
+    margin-bottom: 5px;
+}
