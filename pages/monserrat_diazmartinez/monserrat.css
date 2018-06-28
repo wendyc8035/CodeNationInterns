@@ -1,9 +1,9 @@
-.section-heading{
+.section-heading, .footer-text, .navbar-brand{
     font-family: 'Rochester', cursive;
 }
 #myPicture{
     width:200px;
 }
-.section-subheading{
+.section-subheading, .section-text{
     font-family: 'EB Garamond', serif;
 }
