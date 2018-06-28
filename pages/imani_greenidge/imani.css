@@ -1,0 +1,15 @@
+body{
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.bg-light{
+    background-image: url(http://images4.fanpop.com/image/photos/14700000/dghh-creative-fans-14796554-1920-1080.jpg);
+}
+
+.section-subheading{
+    color:white;
+}
+
+.about{
+    font-size: 24px;
+}
