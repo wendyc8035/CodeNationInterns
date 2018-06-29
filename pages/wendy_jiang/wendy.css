@@ -1,0 +1,12 @@
+#profile-background{
+    background-image: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/tumblr-background-laptop-6.jpg);
+    background-repeat:no-repeat;
+}
+#profile-border{
+    border-style:solid;
+    border-color:#009999;
+    border-radius:50%;
+}
+#name{
+    color:#004d4d;
+}
