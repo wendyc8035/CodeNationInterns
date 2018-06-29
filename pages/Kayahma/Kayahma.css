@@ -1,4 +1,7 @@
-.bg-light {
-   background-color: green;
-   
+.bg-light{
+    background-image:url('http://cdn.shopify.com/s/files/1/2331/5039/products/mint_green_grande.jpg?v=1507549163');
+}
+.rounded-circle profile-img:hover{
+    
+     border-color: lightgray;
 }
