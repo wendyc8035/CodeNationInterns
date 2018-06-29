@@ -1,3 +1,41 @@
 body{
     font-family: 'Iceland', cursive;
+    background-color:#101010;
+    color:white;
+    
+}
+#jzpro{
+    background-image: url(https://pixelstalk.net/wp-content/uploads/2015/12/Black-and-white-flowers-wallpaper-HD.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity:0.9;
+}
+background-image{
+    opacity:0.3;
+}
+#name{
+    color:#D8BFD8;
+    font-size:40px;
+}
+.section-heading{
+    font-family: 'Iceland', cursive;;
+    color:#D8BFD8;
+}
+p{
+    font-size: 22px;
+}
+.footer{
+    background-color: #202020;
+}
+.address{
+    color:#DDA0DD;
+}
+.navbar-brand{
+    color:#DA70D6;
+    font-size:22px;
+}
+#link{
+    color:#DA70D6;
+    font-size:22px;
 }
