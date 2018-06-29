@@ -1,5 +1,5 @@
 body{
-    font-family: 'Encode Sans Condensed', sans-serif;
+    font-family: 'Changa One', cursive;
 }
 
 .bg-light{
@@ -13,3 +13,20 @@ body{
 .about{
     font-size: 24px;
 }
+
+.imani {
+    width:300px;
+}
+.name{
+    font-weight: bold;
+}
+
+.company {
+    font-weight: bold;
+    color: #EF5330;
+}
+
+.heading{
+    color: #EF5330;
+}
+
