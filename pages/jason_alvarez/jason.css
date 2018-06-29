@@ -1,0 +1,25 @@
+#background {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSChfFHuf5I8Gk8XM6JH0190vRWC54hG5F5og4REttZ21Wmffm_8A");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#backgroud:hover {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAB2CAMAAAAqeZcjAAAAA1BMVEUAAACnej3aAAAAJElEQVRoge3BMQEAAADCoPVPbQsvoAAAAAAAAAAAAAAAAADgaTbaAAHy1abqAAAAAElFTkSuQmCC");
+}
+
+body{
+    font-family: 'Indie Flower', cursive;
+}
+
+#darker {
+  background: -webkit-linear-gradient(#c2c3c4, #5e6570);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#standout{
+ background: -webkit-linear-gradient(#333, #4286f4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;   
+}
