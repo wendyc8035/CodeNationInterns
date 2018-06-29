@@ -1,0 +1,9 @@
+body {
+    font-family: serif
+}
+
+.section-heading {
+    color: red;
+    background: black;
+    font-family: monospace;
+}
