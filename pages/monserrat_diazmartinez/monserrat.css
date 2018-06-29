@@ -1,9 +1,42 @@
-.section-heading, .footer-text, .navbar-brand{
+.footer-text, .navbar-brand{
     font-family: 'Rochester', cursive;
+    color:white;
+}
+.navbar-brand{
+    font-size:24px;
 }
 #myPicture{
-    width:200px;
+    width:190px;
 }
-.section-subheading, .section-text{
+.section-subheading, .section-text, .address{
     font-family: 'EB Garamond', serif;
 }
+#mainNav, .footer{
+    background-color:#b2b8f9;
+}
+.info{
+    background-color: #e5e7fd;
+}
+.section-heading{
+    font-family: 'Rochester', cursive;
+    color:#b200ff;
+}
+#myName{
+    padding:50px;
+    font-size:50px;
+}
+
+#mainNav::after{
+    position:absolute;
+  bottom: -50px;
+  left: 0px;
+  width: 100%;
+  content:" ";
+  background: 
+  radial-gradient(circle at 50% 0%, #b2b8f9 25%, #f8f9fa 26%, #f8f9fa 40%);
+  background-color: #b2b8f9;
+  background-size:50px 100px;
+  height:50px;
+  background-repeat: repeat-x;
+}
+
