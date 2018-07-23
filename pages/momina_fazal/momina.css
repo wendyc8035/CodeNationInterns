@@ -1,0 +1,10 @@
+body {
+    font-family: fantasy;
+    
+}
+.section-heading {
+    background-color: pink;
+}
+.profile-img:hover {
+    color:pink;
+}
