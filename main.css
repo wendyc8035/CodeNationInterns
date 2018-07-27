@@ -2,10 +2,15 @@ body {
     font-family: "Roboto Slab","Helvetica","Arial","sans-serif"
 }
 
-.navbar {
-	background-color: #FFF;
-    border-color: #FFF;
+.navbar{
+    background-color: #EF5330;
+    border-color: #EF5330;
 }
+
+/*.navbar {
+//	background-color: #FFF;
+//  border-color: #FFF;
+}*/
 
 .nav-link {
    color:grey; 
@@ -13,7 +18,7 @@ body {
 
 
 .navbar-brand {
-    color: #EF5330;
+    color: white;
 }
 
 .navbar-collapse {
@@ -59,7 +64,7 @@ a:hover {
 
 .section-heading {
     color: #15C2D2;
-    font-family: "proxima-nova","Helvetica","Arial", "sans-serif";
+    font-family: "proxima-nova","Comic Sans MS","Comic Sans MS", "Comic Sans MS";
 }
 
 .intern {
@@ -76,10 +81,11 @@ a:hover {
 .profile {
     margin-top:50px;
     padding:50px;
+    background-color: lightblue;
 }
 
 .profile-img {
-    height: 300px;
+    height: 350px;
     width: 300px;
 }
 
@@ -90,7 +96,7 @@ a:hover {
 }
 
 .profile-icon:hover {
-    color: LightGray;
+    color: grey;
     text-decoration: none;
 }
 
