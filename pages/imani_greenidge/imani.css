@@ -1,0 +1,32 @@
+body{
+    font-family: 'Changa One', cursive;
+}
+
+.bg-light{
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/00/06/36/6856299993ea2f8.jpg);
+}
+
+.section-subheading{
+    color:white;
+}
+
+.about{
+    font-size: 24px;
+}
+
+.imani {
+    width:300px;
+}
+.name{
+    font-weight: bold;
+}
+
+.company {
+    font-weight: bold;
+    color: #EF5330;
+}
+
+.heading{
+    color: #EF5330;
+}
+
