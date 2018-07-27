@@ -1,0 +1,12 @@
+#custom {
+    background-image: url("thisimagsavedme.png");
+}
+#status {
+    color: orange;
+}
+#name {
+    background-color: black;
+}
+#profile {
+    height: 400px;
+}

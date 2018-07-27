@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+#name{
+    font-family: Inconsolata;
+}
+#section{
+    background-image: url("https://media.giphy.com/media/3o75248xZ4uXdJbHbi/giphy.gif"); 
+    background-size: cover;
+}
