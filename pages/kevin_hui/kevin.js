@@ -1,16 +1,16 @@
 //soundcloud api
-// SC.initialize({
-//   client_id: '92929233352ef9e50c2c4e051b0aadf3'
-// });
+SC.initialize({
+  client_id: '92929233352ef9e50c2c4e051b0aadf3'
+});
 
-// // streaming blackpink forever young
-// SC.stream('/tracks/458705343').then(function(player){
-//   player.play().then(function(){
-//     console.log('Playback started!');
-//   }).catch(function(e){
-//     console.error('Playback rejected. Try calling play() from a user interaction.', e);
-//   });
-// });
+// streaming blackpink forever young
+SC.stream('/tracks/458705343').then(function(player){
+  player.play().then(function(){
+    console.log('Playback started!');
+  }).catch(function(e){
+    console.error('Playback rejected. Try calling play() from a user interaction.', e);
+  });
+});
 
 $(document).ready(function(){
   $("#proPic").click(function(){
