@@ -5,7 +5,7 @@
 }
 
 #info:hover {
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAB2CAMAAAAqeZcjAAAAA1BMVEUAAACnej3aAAAAJElEQVRoge3BMQEAAADCoPVPbQsvoAAAAAAAAAAAAAAAAADgaTbaAAHy1abqAAAAAElFTkSuQmCC");
+    background-color: black;
     color: white;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
