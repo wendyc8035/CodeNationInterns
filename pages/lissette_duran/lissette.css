@@ -1,0 +1,22 @@
+#fkj{
+    color:white;
+}
+
+#name{
+    color:white;
+}
+
+.section-heading{
+    color:black;
+    text-shadow: 1px 1px gold;
+}
+
+nav{
+    opacity:0.6;
+}
+
+.img{
+   background-image: url("https://cdn.dribbble.com/users/55063/screenshots/2266143/9_squares_dot.gif");
+   background-color: #cccccc;
+}
+
