@@ -1,0 +1,24 @@
+.bg-light { 
+      background-image: url("./background.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+} 
+
+.text-uppercase { 
+      color: white;
+      font-weight: bold;
+} 
+
+.section-subheading { 
+      color: white;
+} 
+
+.profile-icon { 
+      color: white; 
+      opacity: 0.6;
+} 
+
+.first-text-section { 
+      text-align: justify;   
+} 
+

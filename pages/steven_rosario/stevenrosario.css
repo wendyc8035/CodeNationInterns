@@ -1,0 +1,14 @@
+.bio {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 19px;
+}
+
+.bg-light {
+    background-image: url('https://c1.staticflickr.com/8/7732/18068913690_f01fb2c345_b.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h3 {
+    color: blue;
+}
