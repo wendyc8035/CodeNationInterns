@@ -1,9 +1,9 @@
 body {
-    font-family: "Roboto Slab","Helvetica","Arial","sans-serif"
+    font-family: "Roboto Slab","Helvetica","Arial","sans-serif";
 }
 
 .navbar {
-	background-color: #FFF;
+	background-color: #EF5330;
     border-color: #FFF;
 }
 
@@ -13,7 +13,7 @@ body {
 
 
 .navbar-brand {
-    color: #EF5330;
+    color: white;
 }
 
 .navbar-collapse {
@@ -58,8 +58,8 @@ a:hover {
 }
 
 .section-heading {
-    color: #15C2D2;
-    font-family: "proxima-nova","Helvetica","Arial", "sans-serif";
+    color: #0040FF;
+    font-family: 'Comfortaa', cursive;
 }
 
 .intern {
@@ -74,8 +74,9 @@ a:hover {
 }
 
 .profile {
-    margin-top:50px;
     padding:50px;
+    background-image: url("https://media.giphy.com/media/mibPpWHNeRhg4/giphy.gif");
+    background-size: cover;
 }
 
 .profile-img {
@@ -84,18 +85,20 @@ a:hover {
 }
 
 .profile-icon {
-    color: grey;
+    color: white;
     font-size: 2em;
     text-decoration: none;
+    text-shadow: 2px 2px black;
 }
 
 .profile-icon:hover {
-    color: LightGray;
+    color: gray;
     text-decoration: none;
 }
 
 .info {
     padding:50px;
+    background-color: #00FF80;
 }
 
 
@@ -121,3 +124,20 @@ a:hover {
     height: 1em;
     margin-bottom: 5px;
 }
+
+#job {
+    font-family: "Comfortaa", cursive;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.knowingMe {
+    font-family: 'Courgette', cursive;
+    font-size: larger;
+}
+
+#name {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
