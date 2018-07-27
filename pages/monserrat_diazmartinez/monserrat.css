@@ -16,7 +16,7 @@
 #myPicture{
     width:190px;
 }
-.section-subheading, .section-text, .address, p{
+.section-subheading, .section-text, .address, p, ul{
     font-family: 'EB Garamond', serif;
 }
 #mainNav, .footer{
