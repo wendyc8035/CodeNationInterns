@@ -1,9 +1,10 @@
-body{
+body {
     font-family: 'Changa One', cursive;
 }
 
 .bg-light{
-    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/00/06/36/6856299993ea2f8.jpg);
+    background-image: url(http://dodskypict.com/D/Moon-Wallpaper-On-Wallpaper-Hd-20.jpg);
+    background-size:cover;
 }
 
 .section-subheading{
@@ -16,9 +17,12 @@ body{
 
 .imani {
     width:300px;
+    margin-bottom: 18px;
+    -webkit-box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
 }
 .name{
     font-weight: bold;
+    color:white;
 }
 
 .company {
@@ -40,4 +44,54 @@ body{
 
 .takeaways {
     font-size: 24px;
+}
+
+.wide-frame {
+    width:1030px;
+    height: 800px;
+    margin-left: 50px;
+    margin-bottom: 18px;
+    -webkit-box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+}
+
+.intern_ps {
+    margin-left: 20px;
+    
+}
+
+.pg {
+    width: 500px;
+    height: 754px;
+    margin-bottom: 18px;
+    -webkit-box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+}
+
+.policygenius {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.projectImg {
+    margin-left: 50px;
+    margin-bottom: 80px;
+    height:500px;
+    -webkit-box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+}
+
+.header {
+    margin-left: 170px;
+}
+
+.profile-icon {
+    color: black;
+  }
+  
+.portfolio {
+    margin-bottom: 15px;
+}
+
+.portfolio:hover {
+    color:black;
+    background-color:lightgray;
+    border:0;
 }
