@@ -1,28 +1,37 @@
 body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
     font-family: 'Changa One', cursive;
 }
 
-.bg-light{
+main {
+    flex: 1 0 auto;
+}
+
+
+.bg-light {
+    margin-top: 0;
     background-image: url(http://dodskypict.com/D/Moon-Wallpaper-On-Wallpaper-Hd-20.jpg);
-    background-size:cover;
+    background-size: cover;
 }
 
-.section-subheading{
-    color:white;
+.section-subheading {
+    color: white;
 }
 
-.about{
+.about {
     font-size: 24px;
 }
 
 .imani {
-    width:300px;
+    width: 300px;
     margin-bottom: 18px;
-    -webkit-box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
 }
-.name{
+
+.name {
     font-weight: bold;
-    color:white;
+    color: white;
 }
 
 .company {
@@ -30,12 +39,12 @@ body {
     color: #EF5330;
 }
 
-.heading{
+.heading {
     color: #EF5330;
 }
 
 .work {
-    font-size:24px;
+    font-size: 24px;
 }
 
 .experience {
@@ -47,35 +56,28 @@ body {
 }
 
 .wide-frame {
-    width:1030px;
+    width: 1050px;
     height: 800px;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-bottom: 18px;
-    -webkit-box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
 }
 
 .intern_ps {
     margin-left: 20px;
-    
+
 }
 
 .pg {
     width: 500px;
     height: 754px;
     margin-bottom: 18px;
-    -webkit-box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
 }
 
-.policygenius {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 .projectImg {
-    margin-left: 50px;
+    margin-left: 100px;
     margin-bottom: 80px;
-    height:500px;
-    -webkit-box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+    height: 500px;
+
 }
 
 .header {
@@ -84,14 +86,52 @@ body {
 
 .profile-icon {
     color: black;
-  }
-  
+}
+
+.profile-icon:hover {
+    color:white;
+}
+
 .portfolio {
     margin-bottom: 15px;
 }
 
+.title {
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.loader {
+    margin-left: 120px;
+    margin-bottom: 80px;
+    height:500px;
+}
+
 .portfolio:hover {
+    color:white;
+}
+
+.footer-text img {
+    margin-bottom: -5px;
+}
+
+.addy {
+    font-size: 16px;
+}
+
+.page-footer {
+    background-color: #EF5330;
+}
+
+.caption {
+    color:#EF5330;
+}
+
+.checkboxText {
+    margin-left: 200px;
+}
+
+a:hover {
     color:black;
-    background-color:lightgray;
-    border:0;
 }
