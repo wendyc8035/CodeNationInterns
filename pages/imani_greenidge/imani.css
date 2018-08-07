@@ -69,15 +69,16 @@ img {
 
 .company {
     font-weight: bold;
-    color: black;
+    color:#ff700a;
+    padding:15px;
 }
 
 .heading {
-    color: gray;
+    color: #ff700a;
 }
 
 .caption {
-    color:gray;
+    color:#ff700a;
 }
 .work {
     font-size: 24px;
