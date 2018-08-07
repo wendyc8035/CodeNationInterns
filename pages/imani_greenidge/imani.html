@@ -56,15 +56,15 @@
 
                         <div class="row">
                             <div class="col s12 l4">
-                                <img class="imani hoverable z-depth-1" src="imani1.jpg"></img>
+                                <img class="imani hoverable z-depth-1 responsive-img" src="imani1.jpg"></img>
                             </div>
 
                             <div class="col s12 l4">
-                                <img class="imani hoverable z-depth-1" src="imani2.jpg"></img>
+                                <img class="imani hoverable z-depth-1 responsive-img" src="imani2.jpg"></img>
                             </div>
 
                             <div class="col s12 l4">
-                                <img class="imani hoverable z-depth-1" width="300" src="imani3.jpg"></img>
+                                <img class="imani hoverable z-depth-1 responsive-img" width="300" src="imani3.jpg"></img>
                             </div>
                         </div>
                     </div>
@@ -99,7 +99,8 @@
                             </p>
                             <p class="experience flow-text">
                                 Policygenius is a startup that created a website where you can get insurance quotes through their online application. They also showed alot of interest in me and always asked me questions about what I want to do in the future, what my plans are after
-                                the internship, how my high school experience was. About halfway through the internship Policygenius moved to a new office space. In this space everyone in the company was all on one floor as opposed to two like in the other office space.
+                                the internship, how my high school experience was. About halfway through the internship Policygenius moved to a new office space. In this space everyone in the company was all on one floor as opposed to two like in the
+                                other office space.
                             </p>
                         </div>
                     </div>
@@ -109,7 +110,7 @@
                 <div class="row">
                     <div class="col s12 l12">
                         <a href="#projects">
-                        <h3 class="heading">What I Worked On</h3>
+                            <h3 class="heading">What I Worked On</h3>
                         </a>
                         <p class="work flow-text">I worked on modularizing some of the CSS classes which gives classes more specific names. I worked on making checkbox options bold when selected. I worked on a page loader for the basic information page. While the content of the
                             actual page loads the user sees a loading page in which I made based of a design one of the designers made. I also worked on making a sticky when viewed on a mobile device.
@@ -121,13 +122,12 @@
                     </div>
                 </div>
 
-
                 <div class="row">
                     <div class="col s12 l12">
                         <h3 class="heading">Key Takeaways</h3>
                         <p class="takeaways flow-text">Some of the key takeaways I had from this internship experience was, how to code more efficently, using less code to do that same thing. I feel this is something I struggled with prior to the internship and now I feel much stronger
                             in that area. Learning more ways to create responsive designs without using a library. I felt like I relied to heavily on using libraries like Bootstrap or MaterializeCSS to make my websites responsive, now I learned how to
-                            effectively use media queries to do so.
+                            effectively use media queries and FlexBox to do so.
                         </p>
                         <p class="takeaways flow-text">
                             CSS Modules to make class names more unique and specific. At this first this concept was a little confusing to me, not realizing how limited you could be with having multiple of the same class names in a big application like the Policygenius website,
@@ -137,47 +137,62 @@
                         </p>
                     </div>
                 </div>
+            </div>
+        </section>
 
+        <section class="policygenius">
+            <div class="container">
                 <div class="row">
-                    <div class="policygenius">
-                        <h3 class="heading center">Pictures Taken From Policygenius</h3>
-
-                        <br>
-                        <div class="row">
-                            <img class="wide-frame hoverable z-depth-1" src="imani_intern_lunch.jpg"></img>
-
-                        </div>
-                        <div class="row intern_ps">
-                            <div class="col s12 l6">
-                                <img class="pg hoverable z-depth-1" src="imanipg.jpg"></img>
-                            </div>
-
-                            <div class="col s12 l6">
-                                <img class="pg hoverable z-depth-1" src="imanipginterns.jpg"></img>
-                            </div>
+                    <div class="col l12 s12 mapouter">
+                        <div class="gmap_canvas"><iframe width="1000" height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=policygenius&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.crocothemes.net"></a>
                         </div>
                     </div>
                 </div>
-                <center>
-                    <a name="projects" href="#workedOn">
-                        <h1 class="heading">Projects</h1>
-                    </a>
-                </center>
+
+                <h3 class="heading center">Pictures Taken From Policygenius</h3>
                 <br>
-                <div class="row projects">
+
+                <div class="row">
+                    <img class="wide-frame hoverable z-depth-1 responsive-img" src="imani_intern_lunch.jpg"></img>
+
+                </div>
+
+                <div class="row intern_ps center">
+                    <div class="col s12 l6">
+                        <img class="pg hoverable z-depth-1 responsive-img" src="imanipg.jpg"></img>
+                    </div>
+                    <div class="col s12 l6">
+                        <img class="pg hoverable z-depth-1 responsive-img" src="imanipginterns.jpg"></img>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="container">
+                <a name="projects" href="#workedOn">
+                    <h1 class="heading center">Projects</h1>
+                </a>
+                <br>
+
+                <!--Basic Loader Row-->
+                <div class="row">
                     <div class="col l12">
                         <a href="https://www.policygenius.com/life-insurance/health/basic_info" target="_blank">
-                            <div class="infoLoader">
+                            <div class="infoLoader center">
                                 <p class="flow-text center caption">Basic Info Loader</p>
                                 <img class="loader hoverable z-depth-1" src="desktoploader.png"></img>
                             </div>
                         </a>
                     </div>
                 </div>
+
+                <!-- CheckBoxes and Sticky Header Row-->
                 <div class="row">
                     <div class="col l6">
                         <a href="https://www.policygenius.com/life-insurance/health/health_profile" target="_blank">
-                            <div class="checkboxField">
+                            <div class="checkboxField center">
                                 <p class="flow-text center caption checkboxText">Bolded CheckBoxes</p>
                                 <img class="projectImg hoverable z-depth-1" src="checkboxes.png"></img>
                             </div>
@@ -185,24 +200,23 @@
                     </div>
 
                     <div class="col l6">
-                        <div class="stickyHeader">
+                        <div class="stickyHeader center">
                             <p class="flow-text center caption">Mobile Sticky Header</p>
                             <img class="projectImg header hoverable z-depth-1" src="recreatedheader.png"></img>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
         </section>
     </main>
 
     <!-- FOOTER -->
-    <footer class="page-footer">
+    <footer class="page-footer black">
         <div class="container">
             <div class="row">
                 <div class="col s12 l4 center-align ">
                     <a href="http://scripted.org ">
-                        <h4 class="footer-text ">
+                        <h4 class="footer-text">
                             ScriptEd
                             <img class="footer-logo " src="../../assets/site/scripted_logo_white.png ">
                         </h4>

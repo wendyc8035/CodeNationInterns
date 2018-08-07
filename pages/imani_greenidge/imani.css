@@ -5,10 +5,24 @@ body {
     font-family: 'Changa One', cursive;
 }
 
+.container {
+    width:90%;
+}
+
+.row {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
 main {
     flex: 1 0 auto;
 }
 
+img {
+    max-width: 90%;
+    max-height:650px;
+}
 
 .bg-light {
     margin-top: 0;
@@ -16,6 +30,25 @@ main {
     background-size: cover;
 }
 
+.title {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.portfolio {
+    margin-bottom:15px;
+}
+
+.portfolio:hover {
+    color:white;
+}
+
+.profile-icon {
+    color:black;
+}
+
+.profile-icon:hover {
+    color:white;
+}
 .section-subheading {
     color: white;
 }
@@ -36,13 +69,16 @@ main {
 
 .company {
     font-weight: bold;
-    color: #EF5330;
+    color: black;
 }
 
 .heading {
-    color: #EF5330;
+    color: gray;
 }
 
+.caption {
+    color:gray;
+}
 .work {
     font-size: 24px;
 }
@@ -56,82 +92,24 @@ main {
 }
 
 .wide-frame {
-    width: 1050px;
-    height: 800px;
-    margin-left: 100px;
-    margin-bottom: 18px;
-}
-
-.intern_ps {
-    margin-left: 20px;
-
-}
-
-.pg {
-    width: 500px;
-    height: 754px;
-    margin-bottom: 18px;
-}
-
-.projectImg {
-    margin-left: 100px;
-    margin-bottom: 80px;
-    height: 500px;
-
-}
-
-.header {
-    margin-left: 170px;
-}
-
-.profile-icon {
-    color: black;
-}
-
-.profile-icon:hover {
-    color:white;
-}
-
-.portfolio {
-    margin-bottom: 15px;
-}
-
-.title {
-    color: white;
-    margin-top: 20px;
-    margin-left: 50px;
+    width:1000px;
 }
 
 .loader {
-    margin-left: 120px;
-    margin-bottom: 80px;
-    height:500px;
-}
-
-.portfolio:hover {
-    color:white;
-}
-
-.footer-text img {
-    margin-bottom: -5px;
-}
-
-.addy {
-    font-size: 16px;
-}
-
-.page-footer {
-    background-color: #EF5330;
-}
-
-.caption {
-    color:#EF5330;
-}
-
-.checkboxText {
-    margin-left: 200px;
+    height:600px;
 }
 
 a:hover {
-    color:black;
+    color: black;
+}
+
+.mapouter {
+    height: 600px;
+    max-width: 1300px;
+}
+
+.gmap_canvas {
+    height: 600px;
+    max-width:1300px;
+    text-align: center;
 }
