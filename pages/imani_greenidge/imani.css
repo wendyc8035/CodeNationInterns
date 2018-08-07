@@ -77,6 +77,10 @@ img {
     color: #ff700a;
 }
 
+.footer-text img{
+    margin-bottom: -5px;
+}
+
 .caption {
     color:#ff700a;
 }
