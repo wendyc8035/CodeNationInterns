@@ -1,4 +1,5 @@
-//soundcloud api
+$(document).ready(function(){
+  //soundcloud api
 SC.initialize({
   client_id: '92929233352ef9e50c2c4e051b0aadf3'
 });
@@ -12,7 +13,6 @@ SC.stream('/tracks/458705343').then(function(player){
   });
 });
 
-$(document).ready(function(){
   $("#proPic").click(function(){
     $("#proPic").attr( "src" , "snap.jpg" );
     console.log("hi");
