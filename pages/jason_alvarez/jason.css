@@ -4,14 +4,14 @@
     background-size: cover;
 }
 
-#info:hover {
+#info {
     background-color: black;
     color: white;
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 2s; /* Firefox < 16 */
-    -ms-animation: fadein 2s; /* Internet Explorer */
-    -o-animation: fadein 2s; /* Opera < 12.1 */
-    animation: fadein 2s;
+    -webkit-animation: fadein 2s ease-in; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s ease-in; /* Firefox < 16 */
+    -ms-animation: fadein 2s ease-in; /* Internet Explorer */
+    -o-animation: fadein 2s ease-in; /* Opera < 12.1 */
+    animation: fadein 2s ease-in;
 }
 
 @keyframes fadein {
@@ -54,12 +54,16 @@ body{
 }
 
 #visible{
-    color: blue;
+    color: white;
 }
 
 #map {
         height: 400px;
         width: 100%;
+}
+
+#white{
+    color:white;
 }
 
 html, body {
