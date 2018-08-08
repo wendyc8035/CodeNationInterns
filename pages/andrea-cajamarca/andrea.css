@@ -1,4 +1,40 @@
 body {
     /*background-image: url(http://wallpaperheart.com/wp-content/uploads/2018/04/professional-background-images-hd-2.jpg);*/
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+    background-color: #d9d9d9;
+}
+
+.navbar {
+    background-color: #f1f1f1;
+}
+h5 {
+  display: inline-block;
+  padding: 10px;
+  background: #B9121B;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.text-muted {
+    /*color: #6c757d!important;*/
+    color:white !important;
+}
+
+.p {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 13px;
+}
+.carousel-indicators li {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: grey;
 }
