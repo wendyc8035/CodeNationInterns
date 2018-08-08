@@ -77,5 +77,6 @@ p, li{
     background-color: #e5e7fd;
 }
 .carousel-caption{
-    color:black;   
+    color:black;
+    font-family: 'EB Garamond', serif;
 }
