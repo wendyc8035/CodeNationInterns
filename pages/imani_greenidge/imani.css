@@ -104,17 +104,37 @@ img {
     height:600px;
 }
 
+.projects {
+    height:100%;
+}
+
 a:hover {
     color: black;
+}
+
+.btn:hover {
+    background-color:white;
+}
+
+.before-after-buttons {
+    margin-bottom: 15px;
 }
 
 .mapouter {
     height: 600px;
     max-width: 1300px;
+    
 }
 
 .gmap_canvas {
     height: 600px;
     max-width:1300px;
-    text-align: center;
+}
+
+.footer-icon:hover {
+    color:#ff700a;
+}
+
+.profile-icon:hover {
+    color:#ff700a;
 }
