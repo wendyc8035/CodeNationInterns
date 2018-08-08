@@ -48,7 +48,7 @@
   background-repeat: repeat-x;
 }
 
-p{
+p, li{
     font-size:18px;
 }
 #myPortfolio{
