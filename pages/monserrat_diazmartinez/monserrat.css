@@ -21,7 +21,7 @@ p, li{
     font-size:30px;
 }
 #myPicture{
-    width:185px;
+    width:220px;
 }
 .section-subheading, .section-text, .address, p, ul{
     font-family: 'EB Garamond', serif;
@@ -37,7 +37,7 @@ p, li{
     color:#b200ff;
 }
 #myName{
-    padding:50px;
+    padding-top:50px;
     font-size:50px;
 }
 
