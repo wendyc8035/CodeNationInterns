@@ -17,6 +17,18 @@
 p, li{
     font-size:18px;
 }
+.navbar-brand{
+    font-size:30px;
+}
+#myName{
+    padding-top:50px;
+    font-size:50px;
+    text-shadow: 1.5px 1.5px 3px #e5e7fd; 
+}
+#myPicture{
+    width:220px;
+    margin:10px;
+}
 #vaan{
     color:#40464b;
 }
@@ -27,7 +39,7 @@ p, li{
     background-color:#b2b8f9;
     border-color:white;
     font-family: 'EB Garamond', serif;
-    text-shadow: 1px 1px 1px #5e44a8;
+    text-shadow: .5px .5px .5px #5e44a8;
 }
 #mapButton{
     font-size:20px;
@@ -36,27 +48,11 @@ p, li{
 #mapButton:hover, #vaanMapButton:hover{
     background-color:#e5e7fd;
     border-color:#b2b8f9;
-    color:#40464b;
-    text-shadow: 1px 1px 1px white;
+    color:#5e44a8;
+    text-shadow: .5px .5px .5px white;
 }
 .close{
     color:#a1a7e8;
-}
-
-.navbar-brand{
-    font-size:30px;
-}
-#myName{
-    padding-top:50px;
-    padding-bottom:10px;
-    font-size:50px;
-    text-shadow: 1.5px 1.5px 3px #e5e7fd; 
-}
-#myPicture{
-    width:220px;
-}
-.section-subheading, .section-text, .address, p, ul{
-    font-family: 'EB Garamond', serif;
 }
 #myPortfolio{
     width:40px;
@@ -64,13 +60,16 @@ p, li{
 #myPortfolio:hover{
     opacity:0.8;
 }
+.section-subheading, .section-text, .address, p, ul{
+    font-family: 'EB Garamond', serif;
+}
 #mainNav, .footer{
     background-color:#b2b8f9;
 }
 .section-heading{
     font-family: 'Rochester', cursive;
     color:#5e44a8;
-    text-shadow: 1px 1px 2px white; 
+    text-shadow: 1px 1px 1px white; 
 }
 .info{
     background-color: #e5e7fd;
