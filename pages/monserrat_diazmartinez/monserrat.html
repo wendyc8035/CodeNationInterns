@@ -54,7 +54,7 @@
       </div>
     </section>
     <section class="info">
-      <div class="container" id="writing">
+      <div class="container">
         <div class="row">
           <div class="col-lg-12">
             <h2 class="section-heading">About Me</h2>
@@ -64,7 +64,7 @@
               that I got to see how fun coding can be once you get past the frustrating bits. 
             </p>
             <p class="section-text">
-              Apart from academics, I love listening to music and especially love getting to go to concerts, I've only been to 5 but each have been such an amazing and unqiue experience that I find myself jumping at the chance for another one. 
+              Apart from academics, I love listening to music and especially love concerts, I've only been to 5 but each have been such an amazing and unqiue experience that I find myself jumping at the chance for another one. 
               I also enjoy spedning my time reading, I recently completed the Harry Potter series and I don't know why it took me so long to pick the first one up because they have become some of my favorites. 
               One other thing I love to do is bake, my favorites are chocolate cake, flan, and cheesecake but I would love to learn how to make a souffl&eacute; and tiramisu.
             </p>
@@ -73,12 +73,12 @@
         <div class="row">
           <div class="col-lg-12">
             <h2 class="section-heading">My Internship Experience</h2>
-            <p class="section-text" style="display:none">
-              This summer I intered at the Vaan group, they design and redesign webpages for various different companies, mainly e-commerce. 
+            <p class="section-text">
+              This summer I interned at the Vaan Group, they design and redesign webpages for various different companies, mainly e-commerce. 
             </p>
             <p class="section-text">  
               My internship experience was fun. There were only two other workers in the office for most of the time since everyone else was working remotely, so I didn't get the
-              typical big office experience like others but I still really enjoyed it for my first work experience. 
+              typical big office experience like others might have but I still really enjoyed it for my first work experience. 
             </p>
             <p class="section-text">
               I got to see a variety of aspects of a business; I attended client meetings and saw how to give presentations on designs and how important it is to
@@ -111,6 +111,10 @@
                 <li>Attending meetings where designs were presented to clients and gave feedback</li>
                 <li>Learning Stripe&mdash;a way to collect payment information&mdash;to implement a button and form to collect donations</li>
                 <li>Contributing to a Wordpress website and discovering different plug-ins to achieve necessary look and function</li>
+                <li>Working on a Wirewax video</li>
+                  <ul>
+                    <li>This is a platform that allows you to make a video shopable by having an overlay appear when a desired hotspot is clicked</li>
+                  </ul>
               </ul>
             </p>
           </div>
@@ -129,7 +133,7 @@
             <p> 
               One last thing I learned is how easy it is to reach out to someone on the team for help. While it may have
               seemed intimidating to me at first, I quickly saw that even if you've never met, coworkers are available that have much more experience and therefore knowledge than you and I should take advantage of that. 
-              I also saw how valuable anyone can be to a project; when I went to meetings I was able to contribute and my opinions were actually respected. 
+              I also saw how valuable anyone can be to a project; when I went to meetings I was able to contribute and my opinions were actually respected and encouraged. 
             </p>
           </div>
         </div>
@@ -140,40 +144,48 @@
       </div>
     </section>
     
-    <section class="gallery" style="display:none">
+    <section class="gallery">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h2 class="section-heading">Gallery of Work</h2>
+            <h2 class="section-heading" id="galleryHeading">A Bit of My Work</h2>
             <br>
             <br>
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
               <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src="#" alt="First slide">
+                  <img class="d-block w-100 img-fluid" src="gallery pics/moodboard.png" alt="First slide">
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>...</h5>
-                    <p>...</p>
-                </div>
+                    <h5>Moodboard</h5>
+                    <p>This is a section of the board, meant to develop a bag brand</p>
+                  </div>
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="#" alt="Second slide">
+                  <img class="d-block w-100 img-fluid" src="gallery pics/cl2.png" alt="Second slide">
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>...</h5>
-                    <p>...</p>
-                </div>
+                    <h5>Competitive Landscape</h5>
+                    <p>This is an example of what I did for each brand: researched, gave an overview of products, language, and image.</p>
+                  </div>
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="#" alt="Third slide">
+                  <img class="d-block w-100 img-fluid" src="gallery pics/donate form.png" alt="Third slide">
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>This is a Caption</h5>
-                    <p>woo</p>
+                    <h5>Donation Form</h5>
+                    <p>It changes the fields displayed when the person donating is changed</p>
+                  </div>
                 </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 img-fluid" src="gallery pics/wirewax.png" alt="Fourth slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Wirewax Video</h5>
+                    <p>Throughout the video you can click on the products and this is an example of what pops up</p>
+                  </div>
                 </div>
               </div>
               <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">

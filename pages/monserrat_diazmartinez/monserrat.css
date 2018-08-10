@@ -1,6 +1,9 @@
 .navbar-brand{
     text-shadow: 1px 1px 2px #5e44a8; 
 }
+.navbar-brand:hover{
+    opacity:0.8;
+}
 #mainNav::after{
     position:absolute;
     bottom: -50px;
@@ -26,7 +29,7 @@ p, li{
     text-shadow: 1.5px 1.5px 3px #e5e7fd; 
 }
 #myPicture{
-    width:220px;
+    width:215px;
     margin:10px;
 }
 #vaan{
@@ -52,7 +55,7 @@ p, li{
     text-shadow: .5px .5px .5px white;
 }
 .close{
-    color:#a1a7e8;
+    color:#9096d7;
 }
 #myPortfolio{
     width:40px;
@@ -75,13 +78,15 @@ p, li{
     background-color: #e5e7fd;
 }
 #myCarousel{
-    height:250px;
+    margin:0 auto;
 }
 .gallery{
     background-color: #f8f9fa;
     padding:50px;
 }
-
+#galleryHeading{
+    text-shadow: 1px 1px 2px #e5e7fd; 
+}
 .carousel-control-prev-icon{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23b2b8f9' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
@@ -89,11 +94,16 @@ p, li{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23b2b8f9' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 .carousel-indicators .active{
-    background-color: #e5e7fd;
+    background-color: #b2b8f9;
 }
 .carousel-caption{
     color:black;
     font-family: 'EB Garamond', serif;
+    background-color:rgba(220,220,220,0.5);
+    border-radius:5px;
+}
+.carousel-item img{
+    width:50%;
 }
 
 .footer-text, .navbar-brand{
@@ -103,7 +113,6 @@ p, li{
 #footerLogo{
     text-shadow:1px 1px 2px #5e44a8;
 }
-
 #footerLogo:hover{
     opacity: 0.8;
 }
