@@ -75,6 +75,8 @@ img {
 
 .heading {
     color: #ff700a;
+    background-color:black;
+    padding:12px;
 }
 
 .footer-text img{
@@ -96,6 +98,9 @@ img {
     font-size: 24px;
 }
 
+.intern_ps {
+    margin-bottom: 0;
+}
 .wide-frame {
     width:1000px;
 }
@@ -106,6 +111,10 @@ img {
 
 .projects {
     height:100%;
+}
+
+.proj {
+    margin-top: 0;
 }
 
 a:hover {
@@ -123,7 +132,14 @@ a:hover {
 .mapouter {
     height: 600px;
     max-width: 1300px;
-    
+}
+
+.ppg {
+    margin-top: 0;
+}
+
+.video-container {
+    margin-bottom: 0;
 }
 
 .gmap_canvas {
