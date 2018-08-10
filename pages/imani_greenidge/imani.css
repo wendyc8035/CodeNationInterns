@@ -43,11 +43,11 @@ img {
 }
 
 .profile-icon {
-    color:black;
+    color:gray;
 }
 
 .profile-icon:hover {
-    color:white;
+    color:#ff700a;
 }
 .section-subheading {
     color: white;
@@ -58,7 +58,6 @@ img {
 }
 
 .imani {
- 
     margin-bottom: 18px;
 }
 
@@ -151,6 +150,3 @@ a:hover {
     color:#ff700a;
 }
 
-.profile-icon:hover {
-    color:#ff700a;
-}
