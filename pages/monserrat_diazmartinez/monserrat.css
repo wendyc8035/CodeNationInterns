@@ -1,46 +1,6 @@
-p, li{
-    font-size:18px;
-}
-#vaan{
-    color:#40464b;
-}
-#mapButton, #vaanMapButton{
-    background-color:#b2b8f9;
-    border-color:white;
-    font-family: 'EB Garamond', serif;
-}
-#mapButton{
-    font-size:20px;
-    width:5em;
-}
-.footer-text, .navbar-brand{
-    font-family: 'Rochester', cursive;
-    color:white;
-}
 .navbar-brand{
-    font-size:30px;
+    text-shadow: 1px 1px 2px #5e44a8; 
 }
-#myPicture{
-    width:220px;
-}
-.section-subheading, .section-text, .address, p, ul{
-    font-family: 'EB Garamond', serif;
-}
-#mainNav, .footer{
-    background-color:#b2b8f9;
-}
-.info{
-    background-color: #e5e7fd;
-}
-.section-heading{
-    font-family: 'Rochester', cursive;
-    color:#b200ff;
-}
-#myName{
-    padding-top:50px;
-    font-size:50px;
-}
-
 #mainNav::after{
     position:absolute;
     bottom: -50px;
@@ -54,10 +14,66 @@ p, li{
     height:50px;
     background-repeat: repeat-x;
 }
+p, li{
+    font-size:18px;
+}
+#vaan{
+    color:#40464b;
+}
+#vaan:hover{
+    color:#b2b8f9;
+}
+#mapButton, #vaanMapButton{
+    background-color:#b2b8f9;
+    border-color:white;
+    font-family: 'EB Garamond', serif;
+    text-shadow: 1px 1px 1px #5e44a8;
+}
+#mapButton{
+    font-size:20px;
+    width:5em;
+}
+#mapButton:hover, #vaanMapButton:hover{
+    background-color:#e5e7fd;
+    border-color:#b2b8f9;
+    color:#40464b;
+    text-shadow: 1px 1px 1px white;
+}
+.close{
+    color:#a1a7e8;
+}
 
-
+.navbar-brand{
+    font-size:30px;
+}
+#myName{
+    padding-top:50px;
+    padding-bottom:10px;
+    font-size:50px;
+    text-shadow: 1.5px 1.5px 3px #e5e7fd; 
+}
+#myPicture{
+    width:220px;
+}
+.section-subheading, .section-text, .address, p, ul{
+    font-family: 'EB Garamond', serif;
+}
 #myPortfolio{
     width:40px;
+}
+#myPortfolio:hover{
+    opacity:0.8;
+}
+#mainNav, .footer{
+    background-color:#b2b8f9;
+}
+.section-heading{
+    font-family: 'Rochester', cursive;
+    color:#5e44a8;
+    text-shadow: 1px 1px 2px white; 
+}
+.info{
+    background-color: #e5e7fd;
 }
 #myCarousel{
     height:250px;
@@ -79,4 +95,16 @@ p, li{
 .carousel-caption{
     color:black;
     font-family: 'EB Garamond', serif;
+}
+
+.footer-text, .navbar-brand{
+    font-family: 'Rochester', cursive;
+    color:white;
+}
+#footerLogo{
+    text-shadow:1px 1px 2px #5e44a8;
+}
+
+#footerLogo:hover{
+    opacity: 0.8;
 }

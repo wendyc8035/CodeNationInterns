@@ -1,6 +1,6 @@
 /*global $*/
 
-$(document).ready(function() {
+// $(document).ready(function() {
 
     // var div_top = $('#writing').offset().top;
     // $(window).scroll(function() {
@@ -25,4 +25,4 @@ $(document).ready(function() {
 
 
 
-});
+// });
