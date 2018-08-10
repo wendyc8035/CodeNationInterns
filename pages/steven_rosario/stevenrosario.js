@@ -6,5 +6,5 @@ function myMap() {
   var map = new google.maps.Map(mapCanvas, mapOptions);
 }
 
-var audio = new Audio('music.mp3');
-audio.play();
+// var audio = new Audio('music.mp3');
+// audio.play();
