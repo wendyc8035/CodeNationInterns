@@ -1,9 +1,17 @@
-body {
-    font-family: serif
-}
-
 .section-heading {
-    color: red;
-    background: black;
+    color: black;
     font-family: monospace;
 }
+
+body {
+    font-family: serif;
+}
+
+.p {
+    font-family: palatino;
+}
+
+/*.project{*/
+/*    width: 1000px;*/
+/*    height: 140px;*/
+/*}*/
