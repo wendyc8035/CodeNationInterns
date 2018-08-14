@@ -12,7 +12,7 @@ function initMap() {
           map: map
         });
       }
-      initMap()
+      initMap();
 $(document).ready(function(){
     
     $("#change").hover(function(){
