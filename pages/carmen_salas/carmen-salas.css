@@ -1,0 +1,23 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+background-color: #FDF8F9;
+}
+
+.section-heading{
+    color:#595959	;
+}
+
+.fas fa-envelope{
+    background-color:red;
+}
+
+.project-img{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+}
+
+.profile{
+    background-color:#F3E5E9;
+    
+}

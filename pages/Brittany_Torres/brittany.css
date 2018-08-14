@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(to right, #e55d87, #5fc3e4);
+    background-size: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    font-family: 'Spirax', cursive;
+    text-align:center;
+
+}
+.profile{
+      background: linear-gradient(to right, #e55d87, #5fc3e4);
+    background-size: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    font-family: 'Spirax', cursive;
+
+}
+h2{
+    font-family: 'Spirax', cursive;
+    color:white;
+
+}
+#pic{
+    border-color:white;
+    border-width:100px;
+    border-radius:100px;
+}
+.fa-instagram:before {
+    content: "\f09b";
+}

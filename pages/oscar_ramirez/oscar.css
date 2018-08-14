@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+#name{
+    font-family: Inconsolata;
+}
+#section{
+    background-image: url("https://media.giphy.com/media/3o75248xZ4uXdJbHbi/giphy.gif"); 
+    background-size: cover;
+}
+@keyframes hue {
+    from {
+      filter: hue-rotate(0deg);
+    }
+    
+    to {
+      filter: hue-rotate(360deg);
+    }
+}
+#change_colors{
+    color: #f35626;
+    animation: hue 6s infinite linear;
+}

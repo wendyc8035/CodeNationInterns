@@ -1,0 +1,32 @@
+.jumbotron {
+    font-family: 'Galada', cursive;
+}
+.pic {
+    height: 350px;
+    border-radius: 85px;
+}
+.navbar-brand {
+    font-family: 'Galada', cursive;
+    color: Grey;
+}
+.footer-text {
+    font-family: 'Galada', cursive;
+    
+}
+#photo{
+  background-color: white;  
+}
+#name{
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+#subheading {
+    font-family: 'Playfair Display', serif;
+}
+.section-heading {
+    font-family: 'Playfair Display', serif;
+}
+.text {
+font-family: 'Rajdhani', sans-serif;
+}
+

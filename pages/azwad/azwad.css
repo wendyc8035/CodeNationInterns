@@ -1,0 +1,38 @@
+.hsbc {
+    padding-top: 0px;
+    max-height: 100%;
+    max-width: 40px;
+}
+
+.footer {
+    background-color: #48D1CC;
+}
+
+.section-heading {
+    color: #48D1CC;
+}
+
+.icons {
+    color: black;
+}
+
+.name {
+    font-style: italic;
+    font-family: Lucida;
+}
+
+.text-muted {
+    padding-top: 3%;
+    color: black !important;
+}
+
+.intern {
+    max-height: 50%;
+    max-width: 40%;
+}
+
+.profile {
+    background-image: url("picturebkg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,19 @@
+.pictures {
+    height: 300px;
+    width: 350px;
+    margin-right: 10px;
+}
+
+#job {
+    font-family: "Comfortaa", cursive;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+ .knowingMe {
+    font-family: 'Courgette', cursive;
+    font-size: larger;
+}
+ #name {
+    color: white;
+    text-shadow: 2px 2px black;
+}

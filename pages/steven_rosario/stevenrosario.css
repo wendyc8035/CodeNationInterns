@@ -1,0 +1,14 @@
+.bio {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 19px;
+}
+
+.bg-light {
+    background-image: url('https://steamuserimages-a.akamaihd.net/ugc/269463939060405893/119A5E4828FACC5F55A992CB27D4A4B25DD57241/');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h3 {
+    color: blue;
+}

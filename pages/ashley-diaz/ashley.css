@@ -1,0 +1,19 @@
+body {
+    background-color: #d6f5d6;
+}
+.section-heading {
+    color: black;
+    font-family: 'Cinzel', serif;
+}
+.section-subheading{
+    font-family: 'Cinzel', serif;
+}
+.navbar-brand {
+    font-family: 'Cinzel', serif;
+}
+.bodyText{
+    font-family: 'Zilla Slab', serif;
+}
+
+
+

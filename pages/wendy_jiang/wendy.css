@@ -1,0 +1,40 @@
+.navbar{
+    background-color:#669999;
+}
+.navbar-brand{
+    color:white;
+}
+#profile-background{
+    background-image: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/tumblr-background-laptop-6.jpg);
+}
+#profile-border{
+    border-style:solid;
+    border-color:#009999;
+    border-radius:50%;
+}
+.profile-icon{
+    color:#669999;
+}
+.profile-color{
+    color:#004d4d;
+    font-family: 'Poiret One', cursive;
+    font-weight:bold;
+}
+.section-heading{
+    color:#004d4d;
+    font-family: 'Poiret One', cursive;
+    font-weight:bold;
+
+}
+.info{
+    font-family: 'Poiret One', cursive;
+    font-size:18px;
+    font-weight:bold;
+    color:#004d4d;
+}
+.footer{
+    background-color:#669999;
+}
+p{
+    text-indent:50px;
+}

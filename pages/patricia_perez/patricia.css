@@ -1,0 +1,34 @@
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+#myName {
+        font-family: 'Shrikhand', cursive;
+        color: #ff9999;
+}
+.section-heading {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #ff9999;
+}
+#scripted-nav {
+    color:#001a00;
+}
+#scripted-footer {
+    background-color: #001a00;
+}
+.profile {
+    background-color: #d9d9d9;
+}
+.profile img:hover {
+    background-size: cover;
+    background-image: url("https://i.forbesimg.com/media/lists/companies/fti-consulting_416x416.jpg");
+}
+body .profile:hover {
+    background-size: cover;
+    background-image: url("https://526809fd0ca378f18f28-f7c5e860690689d24368d218bace4ca0.ssl.cf3.rackcdn.com/comfy/cms/files/files/000/000/061/original/nyc-banner.jpg");
+}
+/*
+
+    make a slide show in "section" of the city, the company etc 
+    text-indent: 50px; to indent in the beginning of a paragragh.
+*/
