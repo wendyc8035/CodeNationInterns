@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-	background-color: #FFF;
+    background-color: #FFF;
     border-color: #FFF;
 }
 
@@ -95,6 +95,7 @@ a:hover {
 }
 
 .profile-icon:hover {
+    
     color: LightGray;
     text-decoration: none;
 }
@@ -126,3 +127,4 @@ a:hover {
     height: 1em;
     margin-bottom: 5px;
 }
+
