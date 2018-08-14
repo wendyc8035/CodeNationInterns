@@ -1,10 +1,9 @@
 .name {
     font-family: 'Sacramento', cursive;
     font-size: 50px;
-    color: black;
-    /*font-weight: bold;*/
-    -webkit-text-stroke-width: 0.5px;
-   -webkit-text-stroke-color: white;
+    font-style: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
 }
 
 .section-subheading {
