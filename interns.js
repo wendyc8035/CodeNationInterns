@@ -36,7 +36,7 @@ var interns = [
         lastName: 'Diaz',
         folderName: 'ashley-diaz',
         fileName: 'ashley.html',
-        imgName: '../../assets/site/ashley_headshot.jpg',
+        imgName: 'ashley_headshot.jpg',
         company: 'American Express'
     },
     {
