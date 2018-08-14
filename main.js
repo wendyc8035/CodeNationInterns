@@ -1,5 +1,8 @@
+/*global $*/
 $(document).ready(function() {
-
+    
+    displayInterns(interns); // interns are inmported from interns.js
+    
     var searchTerm;
    
     $('#search').click(function(){
@@ -12,21 +15,45 @@ $(document).ready(function() {
         }
     });
 
+
     function search(){
         var searchTerm = $("input").val();
         searchTerm = searchTerm.toLowerCase();
+        var internList = [];
+        
         if (searchTerm === ''){
-            $(".intern-container").show();
+            displayInterns(interns);
         } else {
-            var interContainers = $(".intern-list")
-
-            var searchResult = interContainers.find(`.${searchTerm}`);
-    
-            $(".intern-container").hide();
-            
-            searchResult.show()
+            internList = interns.filter(function(intern){
+                for(key in intern) {
+                    if (intern[key].toLowerCase().includes(searchTerm)){
+                        return true;
+                    }
+                }
+            });
+            displayInterns(internList);
         }
     }
 
+
+
+    function displayInterns(internList){
+        $(".intern-list").empty();
+        
+        internList.forEach(function(intern) {
+            var internDisplay = 
+            `<div class="col-md-3 intern-container">\
+              <a href="pages/${intern.folderName}/${intern.fileName}">\
+                <div class="intern img-thumbnail">\
+                  <img class="rounded-circle img-fluid" src="pages/${intern.folderName}/${intern.imgName}" alt="">\
+                  <h4>${intern.firstName} ${intern.lastName}</h4>\
+                  <p class="text-muted">Intern at ${intern.company}</p>\
+                </div>\
+              </a>\
+            </div>`
+            
+             $(".intern-list").append(internDisplay);
+        });
+    }
 
 });

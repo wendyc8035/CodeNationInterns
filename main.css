@@ -1,9 +1,9 @@
 body {
-    font-family: "Roboto Slab","Helvetica","Arial","sans-serif"
+    font-family: "Roboto Slab","Helvetica","Arial","sans-serif";
 }
 
 .navbar {
-	background-color: #FFF;
+    background-color: #FFF;
     border-color: #FFF;
 }
 
@@ -52,6 +52,11 @@ a:hover {
 	background-color:lightgray;
     border-color: lightgray;
 }
+.btn-light{
+	background-color:black;
+    border-color: black;
+}
+
 
 #interns{
     padding: 50px;
@@ -87,6 +92,7 @@ a:hover {
     color: grey;
     font-size: 2em;
     text-decoration: none;
+    text-shadow: 2px 2px black;
 }
 
 .profile-icon:hover {
@@ -96,6 +102,7 @@ a:hover {
 
 .info {
     padding:50px;
+/*     background-color: #00FF80; */
 }
 
 

@@ -33,3 +33,13 @@ body {
  font-size: 37px;
  color: #F08080;
 }
+
+#rotate{
+ rotation-point:50% 50%;
+ rotation:90 deg;
+}
+
+.carousel-item img {
+    height: 600px !important;
+    width: 1070px !important;
+}
