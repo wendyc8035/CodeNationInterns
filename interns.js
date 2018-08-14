@@ -1,21 +1,5 @@
 var interns = [
     {
-        firstName: 'FirstName',
-        lastName: 'LastName',
-        folderName: '',
-        fileName: '',
-        imgName: '../../assets/site/profile-placeholder.png',
-        company: 'Company'
-    },
-    {
-        firstName: 'Shane',
-        lastName: 'Morris',
-        folderName: 'shane_morris',
-        fileName: 'shane.html',
-        imgName: 'shane.jpg',
-        company: 'Ghostery'
-    },
-    {
         firstName: 'Abdoul',
         lastName: 'Barry',
         folderName: 'abdoul_barry',
@@ -318,5 +302,13 @@ var interns = [
         fileName: 'wuqian.html',
         imgName: '../../assets/site/profile-placeholder.png',
         company: 'Etsy'
+    },
+    {
+        firstName: 'FirstName',
+        lastName: 'LastName',
+        folderName: '',
+        fileName: '',
+        imgName: '../../assets/site/profile-placeholder.png',
+        company: 'Company'
     },
 ];
