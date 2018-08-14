@@ -13,7 +13,7 @@ body {
 
 
 .navbar-brand {
-    color: white;
+    color: #EF5330;
 }
 
 .navbar-collapse {
@@ -63,8 +63,8 @@ a:hover {
 }
 
 .section-heading {
-    color: #0040FF;
-    font-family: 'Comfortaa', cursive;
+    color: #15C2D2;
+    font-family: "proxima-nova","Helvetica","Arial", "sans-serif";
 }
 
 .intern {
@@ -79,9 +79,8 @@ a:hover {
 }
 
 .profile {
+    margin-top:50px;
     padding:50px;
-    background-image: url("https://media.giphy.com/media/mibPpWHNeRhg4/giphy.gif");
-    background-size: cover;
 }
 
 .profile-img {
@@ -90,7 +89,7 @@ a:hover {
 }
 
 .profile-icon {
-    color: white;
+    color: grey;
     font-size: 2em;
     text-decoration: none;
     text-shadow: 2px 2px black;
