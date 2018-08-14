@@ -228,7 +228,7 @@ var interns = [
         lastName: 'Diaz Martinez',
         folderName: 'monserrat_diazmartinez',
         fileName: 'monserrat.html',
-        imgName: 'headshot.jpg',
+        imgName: 'headshot2.jpg',
         company: 'Vaan Group'
     },
     {
