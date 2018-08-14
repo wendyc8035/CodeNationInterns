@@ -1,22 +1,57 @@
-#fkj{
-    color:white;
-}
 
-#name{
+#name , #internloc, #fkj{
     color:white;
 }
 
 .section-heading{
     color:black;
-    text-shadow: 1px 1px gold;
+    text-shadow: 1px 1px gray;
 }
 
 nav{
-    opacity:0.6;
+    opacity:0.8;
 }
 
 .img{
    background-image: url("https://cdn.dribbble.com/users/55063/screenshots/2266143/9_squares_dot.gif");
-   background-color: #cccccc;
+   color:#153916;
 }
 
+#background{
+  color:#153916;
+}
+
+img:hover {
+    box-shadow: 0px 0px 100px #3eae5f;
+    color: #d1ccd0;
+    cursor: pointer;
+}
+
+
+video{
+    height: 450px;
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gray{
+    right:0;
+    left:0;
+}
+
+#spacelink{
+    color: white;
+}
+
+#spacelink:hover {
+   color:gray;
+   opacity:0.8;
+}
+
+/*#profile{*/
+/*    border-radius: 100%;*/
+/*    height: 350px;*/
+/*    width:300px;*/
+/*}*/

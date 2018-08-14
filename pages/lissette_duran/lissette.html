@@ -13,6 +13,7 @@
     <link href="lissette.css" rel="stylesheet">
     <link href="lissette.jpg" rel="stylesheet">
     <link href="lissette.js" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
   <body>
 
@@ -23,13 +24,13 @@
         </nav>
 
       <!-- TEAM -->
-      <section id="background" class="bg-light profile img">
+      <section id="background cool" class="bg-light profile img">
           <div class="container">
             <div class="row">
               <div class="col-lg-12 text-center">
                 <h2 class="section-heading text-uppercase" id="name">Lissette Duran</h2>
-                <img class="rounded-circle profile-img" src="https://i.imgur.com/H5skdtI.gif" alt="">
-                <h3 class="section-subheading text-muted">Intern At MakeSpace</h3>
+                <img id="profile" class="rounded-circle profile-img w3-padding-32 w3-circle w3-center" src="lissettepic.jpg" alt="">
+                <h3 id="internloc" class="section-subheading text-muted"><a id="spacelink" target="_blank" href="https://makespace.com/">Intern At MakeSpace</a></h3>
                 <a class="profile-icon" href ="https://plus.google.com/u/0/115036918522083622557">
                   <i class="fas fa-envelope"></i>
                 </a>
@@ -49,35 +50,44 @@
                 <div class="col-lg-12">
                     <h2 class="section-heading">About Me</h2>
                     <p class="">
-                           I am an up coming freshman at Hunter College intending to major in Computer Science. Before taking ScriptEd classes, I was not interesting in computer science. In 11th grade I started taking coding classes with ScriptEd for the first time. I learned the basics of HTML, CSS, and JavaScript. I used my new found knowledge to create projects with my fellow classmates. On December of 2016, my team and I won a ScriptEd hackathon at Google. This sparked my passion for coding encouraging me to think about pursuing a career in tech and continue making projects.
+                           I am an up coming freshman at Hunter College intending to major in Computer Science. Before taking ScriptEd classes, I was not interested in computer science. In 11th grade I started taking coding classes with ScriptEd for the first time. I learned the basics of HTML, CSS, and JavaScript. I used my new found knowledge to create projects with my fellow classmates. On December of 2016, my team and I won a ScriptEd hackathon at Google. This sparked my passion for coding encouraging me to think about pursuing a career in tech and continue making projects.
                     </p>
                 </div>
             </div>
+            <div class=" wide gray">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 gray">
                     <h2 class="section-heading">My Internship Experience</h2>
                     <p class="">
-                      My internship experience has been very enlightening. I started with very little knowledge of ReactJS but with the help of others at the company I have been able to learn  a lot. Not only have I learned a lot in the coding aspect but also in how a professional workplace environment is like. 
+                      My internship experience has been very enlightening. I started with very little knowledge of ReactJS but with the help of others at the company I have been able to learn  a lot. Not only have I learned a lot in the coding aspect but also in how a professional workplace environment is like. The environment was completely different from any job I previously had and it was cool to see how s small amount of people are from New York originally. I liked learning about how other people at the company got involved in tech. 
                     </p>
+                </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="section-heading">What I Worked On</h2>
+                    <div id="work">
                     <p class="">
-                      I have been working on a page that has the company’s internal services. Using ReactJS I placed the tools and services onto the page so that the people from each team would be able to navigate through the company services easily.  
+                      I have been working on a page that has the company’s internal services. This is significant because currently to access the tools and services they need to bookmark it and there isn't really a page that focuses on all the services and tools MakeSpace has to offer. This offers an easy and accessible way to navigate through the services. If you are on the sales team, this navigation page would easily list out the tools that are specifically relevant to you.
+                      This project was made with ReactJS. There are two filters in the navigation page. One in the side bar to filter the tools by services and another on the input box to filter anything by and word or put into it. When the user clicks on one of the tools, the page directs you to that service but the header will stay at the top for when you need to drop down the services and pick another. In order to access this navigation page the user needs to log in so to ensure that whoever is on should be on. 
                     </p>
+                    <video controls loop >
+                        <source src="Internal Services.mov" type="video/mp4">
+                    </video>
+                    </div>
                 </div>
             </div>
+            <div class=" wide gray">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 gray">
                     <h2 class="section-heading">Key Takeaways</h2>
                     <p class="">
-                      A key takeaway is you learn how to work in a corporate environment. So you may be shy or uncomfortable for a while but eventually you will adapt and get used to it. Mostly I am grateful that I am learning new things from this internship that I will be able to take with me. 
+                      Some key takeaways that I will take with me from interning at MakeSpace is that even if coding may seem like a one man job it is a team effort. Going to the product/engineering team meetings gave me insight on how engineers work at a company, organizing and discussing the projects. You aren’t expected to know everything- other people on the team are there to help one another. Everyone shows interest and wants to see projects succeed. On top of that, in an internship it is not about how much work you do, it is about how much you learn and are productive with the work you do.
                     </p>
                 </div>
             </div>
-
+            </div>
           </div>
         </section>
     
@@ -111,8 +121,8 @@
                     </a>   
                   </div>
                   <div class="col-lg-4 text-center">
-                      <p class="">85 Broad St, 17th Floor </p>
-                      <p class="">New York, NY 10004</p>
+                      <p class="add">85 Broad St, 17th Floor </p>
+                      <p class="add">New York, NY 10004</p>
                   </div>
                 </div>
             </div>
@@ -128,6 +138,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="main.js"></script>
      <!-- ADD YOUR SCRIPT BELOW -->
-     <script src="shane.js"></script>
+    <script src="lissette.js"></script>
+    <script src="shane.js"></script>
   </body>
 </html>
