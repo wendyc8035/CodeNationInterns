@@ -1,9 +1,9 @@
 .jumbotron {
     font-family: 'Galada', cursive;
 }
-.rounded-circle {
-    height: 400px;
-    
+.pic {
+    height: 350px;
+    border-radius: 85px;
 }
 .navbar-brand {
     font-family: 'Galada', cursive;
@@ -14,10 +14,10 @@
     
 }
 #photo{
-  background-color: black;  
+  background-color: white;  
 }
 #name{
-    color: white;
+    color: black;
     font-family: 'Playfair Display', serif;
 }
 #subheading {
