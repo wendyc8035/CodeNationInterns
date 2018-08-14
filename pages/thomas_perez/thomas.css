@@ -1,5 +1,9 @@
+#header {
+    background: green;
+}
+
 #custom {
-    background-image: url("thisimagsavedme.png");
+    background-image: url("past_cat.jpg");
 }
 #status {
     color: orange;
@@ -9,4 +13,19 @@
 }
 #profile {
     height: 400px;
+}
+#link {
+    margin-bottom: 20px;
+}
+#exp1 {
+    width: 100%;
+}
+#exp2 {
+    width: 100%;
+}
+.profile-icon {
+    color: purple;
+}
+body {
+    
 }
