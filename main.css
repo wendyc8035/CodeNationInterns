@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-	background-color: #EF5330;
+    background-color: #FFF;
     border-color: #FFF;
 }
 
@@ -52,6 +52,11 @@ a:hover {
 	background-color:lightgray;
     border-color: lightgray;
 }
+.btn-light{
+	background-color:black;
+    border-color: black;
+}
+
 
 #interns{
     padding: 50px;
@@ -92,7 +97,7 @@ a:hover {
 }
 
 .profile-icon:hover {
-    color: gray;
+    color: LightGray;
     text-decoration: none;
 }
 
@@ -124,20 +129,3 @@ a:hover {
     height: 1em;
     margin-bottom: 5px;
 }
-
-#job {
-    font-family: "Comfortaa", cursive;
-    color: white;
-    text-shadow: 2px 2px black;
-}
-
-.knowingMe {
-    font-family: 'Courgette', cursive;
-    font-size: larger;
-}
-
-#name {
-    color: white;
-    text-shadow: 2px 2px black;
-}
-

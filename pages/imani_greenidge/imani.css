@@ -1,32 +1,152 @@
-body{
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
     font-family: 'Changa One', cursive;
 }
 
-.bg-light{
-    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/00/06/36/6856299993ea2f8.jpg);
+.container {
+    width:90%;
 }
 
-.section-subheading{
+.row {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+img {
+    max-width: 90%;
+    max-height:650px;
+}
+
+.bg-light {
+    margin-top: 0;
+    background-image: url(http://dodskypict.com/D/Moon-Wallpaper-On-Wallpaper-Hd-20.jpg);
+    background-size: cover;
+}
+
+.title {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.portfolio {
+    margin-bottom:15px;
+}
+
+.portfolio:hover {
     color:white;
 }
 
-.about{
+.profile-icon {
+    color:gray;
+}
+
+.profile-icon:hover {
+    color:#ff700a;
+}
+.section-subheading {
+    color: white;
+}
+
+.about {
     font-size: 24px;
 }
 
 .imani {
-    width:300px;
+    margin-bottom: 18px;
 }
-.name{
+
+.name {
     font-weight: bold;
+    color: white;
 }
 
 .company {
     font-weight: bold;
-    color: #EF5330;
+    color:#ff700a;
+    padding:15px;
 }
 
-.heading{
-    color: #EF5330;
+.heading {
+    color: #ff700a;
+    background-color:black;
+    padding:12px;
+}
+
+.footer-text img{
+    margin-bottom: -5px;
+}
+
+.caption {
+    color:#ff700a;
+}
+.work {
+    font-size: 24px;
+}
+
+.experience {
+    font-size: 24px;
+}
+
+.takeaways {
+    font-size: 24px;
+}
+
+.intern_ps {
+    margin-bottom: 0;
+}
+.wide-frame {
+    width:1000px;
+}
+
+.loader {
+    height:600px;
+}
+
+.projects {
+    height:100%;
+}
+
+.proj {
+    margin-top: 0;
+}
+
+a:hover {
+    color: black;
+}
+
+.btn:hover {
+    background-color:white;
+}
+
+.before-after-buttons {
+    margin-bottom: 15px;
+}
+
+.mapouter {
+    height: 600px;
+    max-width: 1300px;
+}
+
+.ppg {
+    margin-top: 0;
+}
+
+.video-container {
+    margin-bottom: 0;
+}
+
+.gmap_canvas {
+    height: 600px;
+    max-width:1300px;
+}
+
+.footer-icon:hover {
+    color:#ff700a;
 }
 

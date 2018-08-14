@@ -4,8 +4,8 @@ $(document).ready(function(){
         window.open("mailto:thomasperez401@gmail.com");
     });
     $("#profile").hover(function(){
-        $(this).attr("src", "thisimagsavedme.jpg"); 
+        $(this).attr("src", "young_me.JPG"); 
     }, function(){
-        $(this).attr("src", "thomas.JPG");
+        $(this).attr("src", "headshot.jpg");
     });
 });
