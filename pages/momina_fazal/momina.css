@@ -1,10 +1,30 @@
 body {
-    font-family: fantasy;
-    
+    font-family: trebuchet MS;
+    background-color: #D8E4EC;
 }
-.section-heading {
-    background-color: pink;
+.section-heading{
+    transition: all ease-in-out .3s;
 }
-.profile-img:hover {
-    color:pink;
+.section-heading:hover {
+    color: yellow;
+    transform: scale(1.5, 1.5);
+    color: #E05177;
+}
+.name-section-heading:hover{
+        transform: scale(1.5, 1.5);
+        color: #E05177;
+}
+.blurb-container{
+    background-image: url("https://78.media.tumblr.com/be0a4a9d2339c4bc5c3ab3f82eb536b5/tumblr_muz7xbK5bo1svwlszo1_500.gif");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 45%;
+}
+.profile-icon:hover {
+      box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea;
+        -webkit-transform: translateX(-2px);
+        transform: translateX(-2px);
 }
