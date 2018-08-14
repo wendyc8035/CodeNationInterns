@@ -124,7 +124,7 @@ var interns = [
         lastName: 'He',
         folderName: 'jiaqi_he',
         fileName: 'jiaqi.html',
-        imgName: '../../assets/site/IMG_9799 (2).jpeg',
+        imgName: 'IMG_9799 (2).jpeg',
         company: 'Group Nine Media'
     },
     {
