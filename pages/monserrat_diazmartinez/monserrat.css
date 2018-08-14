@@ -1,56 +1,118 @@
+.navbar-brand{
+    text-shadow: 1px 1px 2px #5e44a8; 
+}
+.navbar-brand:hover{
+    opacity:0.8;
+}
+#mainNav::after{
+    position:absolute;
+    bottom: -50px;
+    left: 0px; 
+    width: 100%;
+    content:" ";
+    background: 
+    radial-gradient(circle at 50% 0%, #b2b8f9 25%, #f8f9fa 26%, #f8f9fa 40%);
+    background-color: #b2b8f9;
+    background-size:40px 100px;
+    height:50px;
+    background-repeat: repeat-x;
+}
+p, li{
+    font-size:18px;
+}
+.navbar-brand{
+    font-size:30px;
+}
+#myName{
+    padding-top:50px;
+    font-size:50px;
+    text-shadow: 1.5px 1.5px 3px #e5e7fd; 
+}
+#myPicture{
+    width:215px;
+    margin:10px;
+}
 #vaan{
     color:#40464b;
+}
+#vaan:hover{
+    color:#b2b8f9;
 }
 #mapButton, #vaanMapButton{
     background-color:#b2b8f9;
     border-color:white;
     font-family: 'EB Garamond', serif;
+    text-shadow: .5px .5px .5px #5e44a8;
 }
-.footer-text, .navbar-brand{
-    font-family: 'Rochester', cursive;
-    color:white;
+#mapButton{
+    font-size:20px;
+    width:5em;
 }
-.navbar-brand{
-    font-size:30px;
+#mapButton:hover, #vaanMapButton:hover{
+    background-color:#e5e7fd;
+    border-color:#b2b8f9;
+    color:#5e44a8;
+    text-shadow: .5px .5px .5px white;
 }
-#myPicture{
-    width:190px;
+.close{
+    color:#9096d7;
 }
-.section-subheading, .section-text, .address, p{
+#myPortfolio{
+    width:40px;
+}
+#myPortfolio:hover{
+    opacity:0.8;
+}
+.section-subheading, .section-text, .address, p, ul{
     font-family: 'EB Garamond', serif;
 }
 #mainNav, .footer{
     background-color:#b2b8f9;
 }
+.section-heading{
+    font-family: 'Rochester', cursive;
+    color:#5e44a8;
+    text-shadow: 1px 1px 1px white; 
+}
 .info{
     background-color: #e5e7fd;
 }
-.section-heading{
-    font-family: 'Rochester', cursive;
-    color:#b200ff;
+#myCarousel{
+    margin:0 auto;
 }
-#myName{
+.gallery{
+    background-color: #f8f9fa;
     padding:50px;
-    font-size:50px;
+}
+#galleryHeading{
+    text-shadow: 1px 1px 2px #e5e7fd; 
+}
+.carousel-control-prev-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23b2b8f9' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23b2b8f9' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.carousel-indicators .active{
+    background-color: #b2b8f9;
+}
+.carousel-caption{
+    color:black;
+    font-family: 'EB Garamond', serif;
+    background-color:rgba(220,220,220,0.5);
+    border-radius:5px;
+}
+.carousel-item img{
+    width:50%;
 }
 
-#mainNav::after{
-    position:absolute;
-  bottom: -50px;
-  left: 0px;
-  width: 100%;
-  content:" ";
-  background: 
-  radial-gradient(circle at 50% 0%, #b2b8f9 25%, #f8f9fa 26%, #f8f9fa 40%);
-  background-color: #b2b8f9;
-  background-size:50px 100px;
-  height:50px;
-  background-repeat: repeat-x;
+.footer-text, .navbar-brand{
+    font-family: 'Rochester', cursive;
+    color:white;
 }
-
-p{
-    font-size:18px;
+#footerLogo{
+    text-shadow:1px 1px 2px #5e44a8;
 }
-#myPortfolio{
-    width:40px;
+#footerLogo:hover{
+    opacity: 0.8;
 }

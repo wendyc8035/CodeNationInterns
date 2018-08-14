@@ -1,10 +1,11 @@
 body {
-    font-family: "Roboto Slab","Helvetica","Arial","sans-serif"
+    font-family: "Roboto Slab","Helvetica","Arial","sans-serif";
 }
 
-.navbar{
-    background-color: #EF5330;
-    border-color: #EF5330;
+
+.navbar {
+    background-color: #FFF;
+    border-color: #FFF;
 }
 
 /*.navbar {
@@ -98,6 +99,7 @@ a:hover {
     color: grey;
     font-size: 2em;
     text-decoration: none;
+    text-shadow: 2px 2px black;
 }
 
 .profile-icon:hover {
@@ -107,6 +109,7 @@ a:hover {
 
 .info {
     padding:50px;
+/*     background-color: #00FF80; */
 }
 
 

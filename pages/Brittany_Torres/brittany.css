@@ -7,6 +7,11 @@ body {
     text-align:center;
 
 }
+p{
+    color:black;
+    font-family: 'Comfortaa', cursive;
+    font-size:20px;
+}
 .profile{
       background: linear-gradient(to right, #e55d87, #5fc3e4);
     background-size: 100%;
