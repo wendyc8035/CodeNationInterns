@@ -268,7 +268,7 @@ var interns = [
         lastName: 'Rosario',
         folderName: 'steven_rosario',
         fileName: 'stevenrosario.html',
-        imgName: '../../assets/site/profile-placeholder.png',
+        imgName: 'headshot.jpg',
         company: 'Accenture'
     },
     {
