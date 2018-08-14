@@ -1,3 +1,4 @@
+/*global $*/
 $(document).ready(function() {
     
     displayInterns(interns); // interns are inmported from interns.js
