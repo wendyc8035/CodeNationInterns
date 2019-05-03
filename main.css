@@ -40,11 +40,8 @@ a:hover {
 	background-image: url(https://codenation.org/wp-content/uploads/2018/09/hero-home.png)
 }
 
-.jumbotron h1{
-	color: #FFFFFF;
-}
 .jumbotron {
-	color: #FFFFFF;
+	color: black;
 	margin: 0;
 }
 
@@ -91,15 +88,15 @@ a:hover {
 }
 
 .profile-img {
-    height: 350px;
+    height: 300px;
     width: 300px;
+    margin-bottom: 15px;
 }
 
 .profile-icon {
     color: grey;
     font-size: 2em;
     text-decoration: none;
-    text-shadow: 2px 2px black;
 }
 
 .profile-icon:hover {
