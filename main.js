@@ -1,10 +1,10 @@
 /*global $*/
 $(document).ready(function() {
-    
+
     displayInterns(interns); // interns are inmported from interns.js
-    
+
     var searchTerm;
-   
+
     $('#search').click(function(){
         search();
     });
@@ -20,13 +20,13 @@ $(document).ready(function() {
         var searchTerm = $("input").val();
         searchTerm = searchTerm.toLowerCase();
         var internList = [];
-        
+
         if (searchTerm === ''){
             displayInterns(interns);
         } else {
             internList = interns.filter(function(intern){
                 for(key in intern) {
-                    if (intern[key].toLowerCase().includes(searchTerm)){
+                    if (intern[key].toString().toLowerCase().includes(searchTerm)){
                         return true;
                     }
                 }
@@ -39,19 +39,19 @@ $(document).ready(function() {
 
     function displayInterns(internList){
         $(".intern-list").empty();
-        
+
         internList.forEach(function(intern) {
-            var internDisplay = 
+            var internDisplay =
             `<div class="col-md-3 intern-container">\
               <a href="pages/${intern.folderName}/${intern.fileName}">\
                 <div class="intern img-thumbnail">\
                   <img class="rounded-circle img-fluid" src="pages/${intern.folderName}/${intern.imgName}" alt="">\
-                  <h4>${intern.firstName} ${intern.lastName}</h4>\
+                  <h5>${intern.firstName} ${intern.lastName}</h5>\
                   <p class="text-muted">Intern at ${intern.company}</p>\
                 </div>\
               </a>\
             </div>`
-            
+
              $(".intern-list").append(internDisplay);
         });
     }

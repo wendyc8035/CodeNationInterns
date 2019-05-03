@@ -5,7 +5,8 @@ var interns = [
         folderName: 'abdoul_barry',
         fileName: 'barry.html',
         imgName: 'pic.jpg',
-        company: 'FOAM'
+        company: 'FOAM',
+        year: 2018,
     },
     {
         firstName: 'Abdul',
@@ -13,7 +14,8 @@ var interns = [
         folderName: 'abdul_manan',
         fileName: 'abdul.html',
         imgName: '../../assets/site/profile-placeholder.png',
-        company: 'Microsoft'
+        company: 'Microsoft',
+        year: 2018,
     },
     {
         firstName: 'Andrea',
@@ -21,7 +23,8 @@ var interns = [
         folderName: 'andrea-cajamarca',
         fileName: 'andrea.html',
         imgName: 'andreac01.jpg',
-        company: 'Animoto'
+        company: 'Animoto',
+        year: 2018,
     },
     {
         firstName: 'Anthony',
@@ -29,7 +32,8 @@ var interns = [
         folderName: 'anthony_yang',
         fileName: 'anthony.html',
         imgName: 'anthony.JPG',
-        company: 'Accenture (Shiseido)'
+        company: 'Accenture (Shiseido)',
+        year: 2018,
     },
     {
         firstName: 'Ashley',
@@ -37,7 +41,8 @@ var interns = [
         folderName: 'ashley-diaz',
         fileName: 'ashley.html',
         imgName: 'ashley_headshot.jpg',
-        company: 'American Express'
+        company: 'American Express',
+        year: 2018,
     },
     {
         firstName: 'Azwad',
@@ -45,7 +50,8 @@ var interns = [
         folderName: 'azwad',
         fileName: 'azwad.html',
         imgName: 'azwad.jpg',
-        company: 'HSBC'
+        company: 'HSBC',
+        year: 2018,
     },
     {
         firstName: 'Brittany',
@@ -53,7 +59,8 @@ var interns = [
         folderName: 'Brittany_Torres',
         fileName: 'brittany.html',
         imgName: 'picture.PNG',
-        company: 'Group Nine Media'
+        company: 'Group Nine Media',
+        year: 2018,
     },
     {
         firstName: 'Carmen',
@@ -61,7 +68,8 @@ var interns = [
         folderName: 'carmen_salas',
         fileName: 'carmen.html',
         imgName: 'download.png',
-        company: 'Valtech'
+        company: 'Valtech',
+        year: 2018,
     },
     {
         firstName: 'Coral',
@@ -69,7 +77,8 @@ var interns = [
         folderName: 'coral_reyes',
         fileName: 'coral.html',
         imgName: 'icon.jpg',
-        company: 'Oscar Health'
+        company: 'Oscar Health',
+        year: 2018,
     },
     {
         firstName: 'Daniel',
@@ -77,7 +86,8 @@ var interns = [
         folderName: 'daniel_z',
         fileName: 'daniel.html',
         imgName: '../../assets/site/profile-placeholder.png',
-        company: 'FOAM'
+        company: 'FOAM',
+        year: 2018,
     },
     {
         firstName: 'DeAngelo',
@@ -85,7 +95,8 @@ var interns = [
         folderName: 'deangelo_dove',
         fileName: 'deangelo.html',
         imgName: '../../assets/site/profile-placeholder.png',
-        company: 'Salesforce'
+        company: 'Salesforce',
+        year: 2018,
     },
     {
         firstName: 'Imani',
@@ -93,7 +104,8 @@ var interns = [
         folderName: 'imani_greenidge',
         fileName: 'imani.html',
         imgName: 'imani1.jpg',
-        company: 'Policygenius'
+        company: 'Policygenius',
+        year: 2018,
     },
     {
         firstName: 'Jason',
@@ -101,7 +113,8 @@ var interns = [
         folderName: 'jason_alvarez',
         fileName: 'jason.html',
         imgName: '../../assets/site/profile-placeholder.png',
-        company: 'ATTCK'
+        company: 'ATTCK',
+        year: 2018,
     },
     {
         firstName: 'Jason',
@@ -109,7 +122,8 @@ var interns = [
         folderName: 'jason_giang',
         fileName: 'jason.html',
         imgName: '../../assets/site/profile-placeholder.png',
-        company: 'TPG'
+        company: 'TPG',
+        year: 2018,
     },
     {
         firstName: 'Jennifer',
@@ -117,7 +131,8 @@ var interns = [
         folderName: 'jennifer_zheng',
         fileName: 'jennnifer.html',
         imgName: 'jennifer.png',
-        company: 'HSBC'
+        company: 'HSBC',
+        year: 2018,
     },
     {
         firstName: 'Jackie',
@@ -125,7 +140,8 @@ var interns = [
         folderName: 'jiaqi_he',
         fileName: 'jiaqi.html',
         imgName: 'IMG_9799 (2).jpeg',
-        company: 'Group Nine Media'
+        company: 'Group Nine Media',
+        year: 2018,
     },
     {
         firstName: 'Jocelyn',
@@ -133,7 +149,8 @@ var interns = [
         folderName: 'jocelyn_reyes',
         fileName: 'jocelyn.html',
         imgName: 'jocelyn.jpg',
-        company: 'Datadog'
+        company: 'Datadog',
+        year: 2018,
     },
     {
         firstName: 'Jordan',
@@ -141,7 +158,8 @@ var interns = [
         folderName: 'jordan_kelly',
         fileName: 'jordan.html',
         imgName: '../../assets/site/profile-placeholder.png',
-        company: 'OpenFin'
+        company: 'OpenFin',
+        year: 2018,
     },
     {
         firstName: 'Julian',
@@ -149,7 +167,8 @@ var interns = [
         folderName: 'julian_jimenez',
         fileName: 'julian_jimenez.html',
         imgName: 'julian.jpg',
-        company: 'Oscar Health'
+        company: 'Oscar Health',
+        year: 2018,
     },
     {
         firstName: 'Kayahma',
@@ -157,7 +176,8 @@ var interns = [
         folderName: 'Kayahma',
         fileName: 'Kayahma.html',
         imgName: 'kay.jpg',
-        company: 'Etsy'
+        company: 'Etsy',
+        year: 2018,
     },
     {
         firstName: 'Kevin',
@@ -165,7 +185,8 @@ var interns = [
         folderName: 'kevin_hui',
         fileName: 'kevin.html',
         imgName: 'kevin.jpg',
-        company: 'MediaMath'
+        company: 'MediaMath',
+        year: 2018,
     },
     {
         firstName: 'Kiara',
@@ -173,7 +194,8 @@ var interns = [
         folderName: 'Kiara_Correa_Acosta',
         fileName: 'Kiara.html',
         imgName: 'Kiara.png',
-        company: 'Rent the Runway'
+        company: 'Rent the Runway',
+        year: 2018,
     },
     {
         firstName: 'Layla',
@@ -181,15 +203,17 @@ var interns = [
         folderName: 'layla_flight',
         fileName: 'layla.html',
         imgName: '../../assets/site/profile-placeholder.png',
-        company: 'Animoto'
+        company: 'Animoto',
+        year: 2018,
     },
     {
         firstName: 'Lissette',
         lastName: 'Duran',
         folderName: 'lissette_duran',
         fileName: 'lissette.html',
-        imgName: 'lissette.jpg',
-        company: 'MakeSpace'
+        imgName: 'lissettepic.jpg',
+        company: 'MakeSpace',
+        year: 2018,
     },
     {
         firstName: 'Louis',
@@ -197,7 +221,8 @@ var interns = [
         folderName: 'louis_gabrie',
         fileName: 'louis.html',
         imgName: 'portfolio_me.jpg',
-        company: 'ALICE'
+        company: 'ALICE',
+        year: 2018,
     },
     {
         firstName: 'Mark',
@@ -205,7 +230,8 @@ var interns = [
         folderName: 'mark_griffith',
         fileName: 'markgriffith.html',
         imgName: 'mark.jpg',
-        company: 'MediaMath'
+        company: 'MediaMath',
+        year: 2018,
     },
     {
         firstName: 'Michal',
@@ -213,7 +239,8 @@ var interns = [
         folderName: 'michal_idzik',
         fileName: 'michal.html',
         imgName: 'michal.jpg',
-        company: 'OpenFin'
+        company: 'OpenFin',
+        year: 2018,
     },
     {
         firstName: 'Momina',
@@ -221,7 +248,8 @@ var interns = [
         folderName: 'momina_fazal',
         fileName: 'momina.html',
         imgName: 'momina.jpg',
-        company: 'OkCupid'
+        company: 'OkCupid',
+        year: 2018,
     },
     {
         firstName: 'Monserrat',
@@ -229,7 +257,8 @@ var interns = [
         folderName: 'monserrat_diazmartinez',
         fileName: 'monserrat.html',
         imgName: 'headshot2.jpg',
-        company: 'Vaan Group'
+        company: 'Vaan Group',
+        year: 2018,
     },
     {
         firstName: 'Oscar',
@@ -237,7 +266,8 @@ var interns = [
         folderName: 'oscar_ramirez',
         fileName: 'oscar.html',
         imgName: '../../assets/site/profile-placeholder.png',
-        company: 'Frame.io'
+        company: 'Frame.io',
+        year: 2018,
     },
     {
         firstName: 'Patricia',
@@ -245,7 +275,8 @@ var interns = [
         folderName: 'patricia_perez',
         fileName: 'patricia.html',
         imgName: 'patricia.JPG',
-        company: 'FTI Consulting'
+        company: 'FTI Consulting',
+        year: 2018,
     },
     {
         firstName: 'Ramata',
@@ -253,7 +284,8 @@ var interns = [
         folderName: 'ramata_williams',
         fileName: 'ramata.html',
         imgName: 'ramata.jpg',
-        company: 'American Express'
+        company: 'American Express',
+        year: 2018,
     },
     {
         firstName: 'Stephanie',
@@ -261,7 +293,8 @@ var interns = [
         folderName: 'Stephanie_Smith',
         fileName: 'Stephanie.html',
         imgName: 'Stephanie.jpg',
-        company: 'Valtech'
+        company: 'Valtech',
+        year: 2018,
     },
     {
         firstName: 'Steven',
@@ -269,7 +302,8 @@ var interns = [
         folderName: 'steven_rosario',
         fileName: 'stevenrosario.html',
         imgName: 'headshot.jpg',
-        company: 'Accenture'
+        company: 'Accenture',
+        year: 2018,
     },
     {
         firstName: 'Tai',
@@ -277,7 +311,8 @@ var interns = [
         folderName: 'Taifinkaba_Chowdhury',
         fileName: 'Taifinkaba.html',
         imgName: 'Taifinkaba.jpg',
-        company: 'American Express'
+        company: 'American Express',
+        year: 2018,
     },
     {
         firstName: 'Thomas',
@@ -285,7 +320,8 @@ var interns = [
         folderName: 'thomas_perez',
         fileName: 'thomas.html',
         imgName: 'thomas.JPG',
-        company: 'Slice'
+        company: 'Slice',
+        year: 2018,
     },
     {
         firstName: 'Wendy',
@@ -293,7 +329,8 @@ var interns = [
         folderName: 'wendy_jiang',
         fileName: 'wendy.html',
         imgName: 'wendy.JPG',
-        company: 'Rent the Runway'
+        company: 'Rent the Runway',
+        year: 2018,
     },
     {
         firstName: 'Wuqian',
@@ -301,7 +338,8 @@ var interns = [
         folderName: 'wuqian_ye',
         fileName: 'wuqian.html',
         imgName: '../../assets/site/profile-placeholder.png',
-        company: 'Etsy'
+        company: 'Etsy',
+        year: 2018,
     },
     {
         firstName: 'FirstName',
@@ -309,6 +347,7 @@ var interns = [
         folderName: '',
         fileName: '',
         imgName: '../../assets/site/profile-placeholder.png',
-        company: 'Company'
+        company: 'Company',
+        year: 2018,
     },
 ];
